@@ -1,0 +1,146 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.contain {
+  max-width: 1200px;
+  margin: auto;
+}
+/* HEADER  */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 30px;
+}
+
+.header__content li {
+  padding: 55px 15px;
+}
+
+.header__content li a {
+  color: #070120;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.header__content span {
+  display: inline-block;
+}
+
+.header__content i {
+  font-size: 9px;
+  margin-top: -3px;
+  vertical-align: middle;
+}
+
+.header__content li:hover a {
+  color: #f55f8d;
+}
+
+.header__content li:hover span {
+  animation: upToDown 0.3s forwards;
+}
+
+/* CAROUSEL */
+
+.Carousel {
+  padding-top: 180px;
+  overflow: hidden;
+
+  background-image: url(../img/pic2.png);
+  background-position: top;
+  background-size: 100%;
+}
+
+.Carousel__content {
+  display: flex;
+  align-items: center;
+}
+
+.Carousel__article p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.Carousel__content li {
+  padding: 10px 5px 10px 0;
+  font-size: 20px;
+}
+
+.Carousel__content ul {
+  margin-bottom: 20px;
+}
+
+.Carousel__left {
+  width: 60%;
+}
+
+.Carousel__right {
+  width: 40%;
+}
+
+.Carousel__banner {
+  width: 570px;
+  margin-left: 50px;
+}
+
+.Carousel__banner img {
+  max-width: 100%;
+  display: block;
+}
+
+.Carousel__article i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+
+  font-size: 24px;
+  color: #fff;
+  border-radius: 35px;
+  font-weight: 900;
+  background-image: linear-gradient(
+    to right,
+    #f55f8d 0,
+    #f8ae56 51%,
+    #f55f8d 100%
+  );
+  background-size: 200%;
+  margin-right: 10px;
+}
