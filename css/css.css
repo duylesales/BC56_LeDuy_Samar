@@ -23,6 +23,30 @@ a {
   max-width: 1200px;
   margin: auto;
 }
+
+.title p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
+.title h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.section-inner {
+  padding-top: 115px;
+}
+
+.animateDuration {
+  animation-duration: 2s;
+}
+
 /* HEADER  */
 header {
   position: absolute;
