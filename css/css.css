@@ -923,3 +923,7 @@ footer::before {
     opacity: 1;
   }
 }
+
+.owl-item {
+  height: 400px !important;
+}
